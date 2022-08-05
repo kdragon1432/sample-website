@@ -38,6 +38,7 @@ h1 {
 }
 section {
   background: white;
+  height: auto;
   padding: 10px 20px;
   color: black;
   display: flex;
@@ -57,6 +58,13 @@ section {
   display: flex;
   flex-direction: row;
 }
+.blog_div {
+  background: red;
+  padding: 10px 0px 10px 0px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
 .about {
   background: white;
   padding: 10px 20px;
@@ -71,6 +79,14 @@ div {
   height: 100px;
   margin: auto;
   text-align: center;
+}
+.blog_div_icons {
+  background-color: white;
+  width: 200px;
+  height: 100px;
+  margin: 0;
+  padding: 5px;
+  text-align: right;
 }
 footer {
   background: black;
