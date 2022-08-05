@@ -60,6 +60,7 @@ section {
 .about {
   background: white;
   padding: 10px 20px;
+  height: auto;
   color: black;
   display: flex;
   flex-direction: row;
