@@ -31,8 +31,9 @@ a: visited {
   color: white;
 }
 h1 {
-  text-align: center;
-  color: white;
+  margin-right: auto;
+  margin-top: 10px;
+  color: black;
 }
 section {
   background: white;
