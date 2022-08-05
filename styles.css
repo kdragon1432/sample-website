@@ -7,6 +7,7 @@ body {
 }
 header {
   background: black;
+  background-image: url('images/background_header.jpg');
   color: white;
   padding: 10px 20px;
 }
@@ -18,17 +19,39 @@ ul {
 li {
   display: inline-block;
   margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+a {
+  text-decoration: underline;
+  color: white;
+}
+a: visited {
+  text-decoration: underline;
+  color: white;
 }
 h1 {
+  text-align: center;
   color: white;
 }
 section {
   background: white;
   padding: 10px 20px;
   color: black;
+  display: flex;
+  flex-direction: row;
+}
+div {
+  background: red;
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
 }
 footer {
   background: black;
+  background-image: url('images/background_header.jpg');
   color: white;
   padding: 10px 20px;
+  text-align: right;
 }
