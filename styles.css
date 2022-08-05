@@ -32,10 +32,18 @@ a: visited {
 }
 h1 {
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   color: black;
 }
 section {
+  background: white;
+  padding: 10px 20px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+.main_div {
   background: red;
   padding: 10px 0px 0px 10px;
   color: black;
