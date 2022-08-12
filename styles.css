@@ -41,7 +41,7 @@ section {
   height: auto;
   padding: 10px 20px;
   color: black;
-  display: flex;
+//  display: flex;
   flex-direction: row;
 }
 .main_div {
@@ -59,11 +59,11 @@ section {
   flex-direction: row;
 }
 .blog_div {
-  background: red;
-  padding: 10px 0px 10px 0px;
+  background: white;
+  padding: 10px 0px 10px 10px;
   color: black;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .about {
   background: white;
@@ -84,9 +84,22 @@ div {
   background-color: white;
   width: 200px;
   height: 100px;
-  margin: 0;
-  padding: 5px;
-  text-align: right;
+  margin: auto;
+  text-align: center;
+}
+button {
+  //border: none;
+  border-radius: 8px;
+  background-color: blue;
+  color: white;
+  //right: 0;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  //margin: 4px 2px;
+  cursor: pointer;
 }
 footer {
   background: black;

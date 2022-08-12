@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> post2 </title>
+    <title> Homelessness </title>
     <link rel="stylesheet" href="../styles.css">
   </head>
 
@@ -20,9 +20,41 @@
       </center>
     </header>
 
-    <section> <h1> post2 </h1> </section>
+    <section> <h1> about Homelessness </h1> </section>
     <section>
-      section 2
+      <p><strong> What is Homelessness? </strong></p>
+      <p>
+        The definition of homelessness means not having a home.
+        Being homeless usually means that you do not have a place to stay and live on the streets.
+        However, you can be homeless even with a roof over your head.
+      </p>
+      <p><strong> The Main Causes of Homelessness </strong></p>
+      <p>
+        - stagnant wages <br>
+        - unemployment <br>
+        - lack of affordable housing <br>
+        - poverty <br>
+        - lack of mental health and addiction treatment services <br>
+        - racial inequality <br>
+        - domestic violence <br>
+        - family conflict <br>
+        - systemic failures <br>
+      </p>
+      <p><strong> Work Cited </strong></p>
+      <p><i>
+        Soken-Huberty, Emmaline. “10 Root Causes of Homelessness.” Human Rights Careers, 28 July 2020,
+        <br> www.humanrightscareers.com/issues/root-causes-of-homelessness.
+      </i></p>
+    </section>
+    <section>
+      <form  method="get">
+        <strong> Comment: </strong> <br>
+        <textarea name="comment"
+        style="width:700px; height:150px; margin:2%"></textarea>
+        <br>
+        <input type="submit">
+      </form>
+      <?php echo $_GET["comment"] ?>
     </section>
   </body>
 

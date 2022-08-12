@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> post3 </title>
+    <title> LGBTQ+ </title>
     <link rel="stylesheet" href="../styles.css">
   </head>
 
@@ -20,9 +20,28 @@
       </center>
     </header>
 
-    <section> <h1> post3 </h1> </section>
+    <section> <h1> about LGBTQ+ </h1> </section>
     <section>
-      section 2
+      <p><strong> What does LGBTQ stand for? </strong></p>
+      <p>
+        - [L] lesbian <br>
+        - [G] gay <br>
+        - [B] bisexual <br>
+        - [T] transgender <br>
+        - [Q] queer <br>
+        It functions as an unbrella term for sexuality and gender identity. 
+      </p>
+
+    </section>
+    <section>
+      <form  method="_GET">
+        <strong> Comment: </strong> <br>
+        <textarea name="comment"
+        style="width:700px; height:150px; margin:2%"></textarea>
+        <br>
+        <input type="submit">
+      </form>
+      <?php echo $_GET["comment"] ?>
     </section>
   </body>
 

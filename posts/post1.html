@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> post1 </title>
+    <title> IT Professionals </title>
     <link rel="stylesheet" href="../styles.css">
   </head>
 
@@ -20,18 +20,50 @@
       </center>
     </header>
 
-    <section> <h1> post1 </h1> </section>
+    <section> <h1> about IT Professionals </h1> </section>
     <section>
-      this is the post
+      <p><strong> What is an IT Professional? </strong></p>
+      <p>
+        An IT specialist, computer professional, or an IT professional may be:
+        <br> [1] someone working in the field of information technology
+        <br> [2] someone who has undergone training or higher learning in tech institute
+        <br> [3] someone who has proven extensive knowledge in the area of computing
+      </p>
+      <p><strong> Job Titles in the IT Field </strong></p>
+      <p>
+        - computer incident responder <br>
+        - computer repair technician <br>
+        - computer scientist <br>
+        - database administrator <br>
+        - digital forensics analyst <br>
+        - firewall administrator <br>
+        - information technology consultant <br>
+        - intrusion detection system analyst <br>
+        - network administrator <br>
+        - programmer (also known as a software engineer) <br>
+        - system administrator <br>
+        - systems analyst <br>
+        - web developer <br>
+      </p>
+      <p><strong> Work Cited </strong></p>
+      <p> <i>
+        Wikipedia contributors. “Technology Specialist.” Wikipedia, 2 July 2022,
+        <br> en.wikipedia.org/wiki/Technology_specialist.
+      </i> </p>
+      <p> <i>
+        Gelat, Mag. “How to Become an IT Specialist? Complete Guide 2022.” Wrkt.Org, 23 June 2022,
+        <br> wrkt.org/blog/how-to-become-it-specialist.
+      </i></p>
     </section>
     <section>
-      <form action="c1_page.php">
-        <label for="comment"><strong> Comment: </strong></label> <br>
-        <textarea name="comment" id="comment"
+      <form  formmethod="get">
+        <strong> Comment: </strong> <br>
+        <textarea name="comment"
         style="width:700px; height:150px; margin:2%"></textarea>
         <br>
-        <input type="submit" value="Submit">
-        </form>
+        <input type="submit">
+      </form>
+      <?php echo $_GET["comment"] ?>
     </section>
 
   </body>
